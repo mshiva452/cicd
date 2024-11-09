@@ -1,7 +1,7 @@
 FROM node:latest
-WORKDIR /react-docker-sample/
-COPY public/ /react-docker-example/public
-COPY src/ /react-docker-example/src
-COPY package.json /react-docker-example/
+WORKDIR /cicd/
+COPY public/ /cicd/public
+COPY src/ /cicd/src
+COPY package.json /cicd/
 RUN npm install 
 CMD ["npm", "start"]
