@@ -1,5 +1,7 @@
 FROM node:latest
-WORKDIR /apps
-ADD . .
+WORKDIR /react-docker-sample/
+COPY public/ /react-docker-example/public
+COPY src/ /react-docker-example/src
+COPY package.json /react-docker-example/
 RUN npm install 
-CMD ["node", "index.js"]
+CMD ["npm", "start"]
