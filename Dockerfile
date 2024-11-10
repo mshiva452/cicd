@@ -5,7 +5,7 @@ WORKDIR /simple-react
 # Install the dependencies
 #RUN npm install
 # Copy the app files
-COPY . .
+#COPY . .
 # Build the app
 #RUN npm run build
 # Expose the port
