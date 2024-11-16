@@ -5,7 +5,7 @@ WORKDIR /simple-react
 #COPY package*.json ./
 # Install the dependencies
 ADD . .
-RUN npm install
+#RUN npm install
 # Copy the app files
 #COPY . .
 # Build the app
