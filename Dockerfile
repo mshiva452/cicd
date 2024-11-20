@@ -10,7 +10,7 @@ WORKDIR /simple-react
 COPY . .
 # Build the app
 RUN npm install
-RUN npm run build
+#RUN npm run build
 # Expose the port
 EXPOSE 3000
 # Run the app
