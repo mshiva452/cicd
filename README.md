@@ -48,3 +48,5 @@ export default tseslint.config({
   },
 })
 ```
+# Running ngrock for dummy https url to map localhost
+ngrok http http://localhost:8080 where port 8080 is jenkins port
