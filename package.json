@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sonar":"npm coverage && npx sonar-scanner -Dsonar.login=sqp_394f137854c61cc888eba57360e091f3fb5531f2"
+    "sonar":"npx sonar-scanner -Dsonar.login=sqp_394f137854c61cc888eba57360e091f3fb5531f2"
   },
   "dependencies": {
     "react": "^18.3.1",
